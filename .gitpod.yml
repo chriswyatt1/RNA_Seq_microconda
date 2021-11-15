@@ -24,7 +24,7 @@ tasks:
       
       
     command: |
-      export PATH=/workspace/Gitpod_test:$PATH
+      export PATH=/workspace/RNA_Seq_microconda:$PATH
       nextflow info
       unset JAVA_TOOL_OPTIONS
       echo 'Starting workspace !'
