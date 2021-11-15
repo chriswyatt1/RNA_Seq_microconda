@@ -6,4 +6,5 @@ RUN \
       salmon=1.5.1 \
       fastqc=0.11.9 \
       multiqc=1.10.1 \
+      STAR=2.7.9a \
    && micromamba clean -a -y
